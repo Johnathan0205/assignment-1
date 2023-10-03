@@ -37,11 +37,31 @@
 
 
 <div class="grid-container">
-  <div class="grid-item item1">hint 1: drugs</div>
-  <div class="grid-item item2"> <img src= jessy.jpg></div>
-  <div class="grid-item item3"> </div>  
+  <div class="grid-item item1"> <button onclick="myFunction()">Click me</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "drugs";
+}
+</script>
+
+</div> 
+
+  <div class="grid-item item2"> <p id="demo" onclick="myFunction()">Click on me.</p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "<img src='jessy.jpg'>";
+}
+</script></div>
+  <div class="grid-item item3">  </div>  
   <div class="grid-item item4"></div>
   <div class="grid-item item5"></div>
+  <div class="grid-item item6"></div>
+  <div class="grid-item item7"></div>
+  <div class="grid-item item8"></div>
 </div>
 
 
